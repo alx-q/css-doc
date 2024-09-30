@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <script>hljs.highlightAll();</script>
+</head>
+
+<body>
+    <br>
+    <div style="max-width: 1200px; margin: auto;">
+        <h4>Couleurs (CSS)</h4>
+        <hr>
+        <pre>
+            <code class="language-css">
+                var(--color-primary);
+                var(--color-secondary);
+            </code>
+        </pre>
+    
+        <h4>Typographie</h4>
+        <hr>
+        <h1>Lorem Ipsum Dolor Sit Amet</h1>
+        <h2>Lorem Ipsum Dolor Sit Amet</h2>
+        <h3>Lorem Ipsum Dolor Sit Amet</h3>
+        <h4>Lorem Ipsum Dolor Sit Amet</h4>
+        <h5>Lorem Ipsum Dolor Sit Amet</h5>
+        <h6>Lorem Ipsum Dolor Sit Amet</h6>
+        <p>Lorem Ipsum Dolor Sit Amet</p>
+    
+        <pre>
+            <code class="language-html">
+                &lt;h1&gt;Lorem Ipsum Dolor Sit Amet&lt;/h1&gt;
+                &lt;h2&gt;Lorem Ipsum Dolor Sit Amet&lt;/h2&gt;
+                &lt;h3&gt;Lorem Ipsum Dolor Sit Amet&lt;/h3&gt;
+                &lt;h4&gt;Lorem Ipsum Dolor Sit Amet&lt;/h4&gt;
+                &lt;h5&gt;Lorem Ipsum Dolor Sit Amet&lt;/h5&gt;
+                &lt;h6&gt;Lorem Ipsum Dolor Sit Amet&lt;/h6&gt;
+                &lt;p&gt;Lorem Ipsum Dolor Sit Amet&lt;/p&gt;
+            </code>
+        </pre>
+    
+        <h4>Boutons</h4>
+        <hr>
+        <button>Bouton</button>
+        <button>← Bouton</button>
+        <button class="btn-filled">Bouton</button>
+        <pre>
+            <code class="language-html">
+                &lt;button&gt;Bouton&lt;/button&gt;
+                &lt;button&gt;&lt;Icon path={mdiArrowLeft} size={1} /&gt; Bouton&lt;/button&gt;
+                &lt;button class=&quot;btn-filled&quot;&gt;Bouton&lt;/button&gt;
+            </code>
+        </pre>
+
+        <h4>Icones</h4>
+        <hr>
+        <p>Les Icones sont disponibles sur <a href="https://pictogrammers.com/library/mdi/" target="_blank">Pictogrammers</a></p>
+        <pre>
+            <code>
+                import Icon from &#39;@mdi/react&#39;;
+                import { mdiArrowLeft } from &#39;@mdi/js&#39;;
+
+                &lt;Icon path={mdiArrowLeft} size={1} /&gt;
+            </code>
+        </pre>
+
+
+        <h4>Formulaires</h4>
+        <hr>
+        <input type="text">
+        <br>
+        <input type="text" placeholder="Courriel">
+        <pre>
+            <code class="language-html">
+                &lt;input type=&quot;text&quot;&gt;
+                &lt;input type=&quot;text&quot; placeholder=&quot;Courriel&quot;&gt;
+            </code>
+        </pre>
+    
+        <div class="input-container">
+            <p>Courriel</p>
+            <input type="text">
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class=&quot;input-container&quot;&gt;
+                    &lt;p&gt;Courriel&lt;/p&gt;
+                    &lt;input type=&quot;text&quot;&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+        <div class="input-container">
+            <p>Courriel</p>
+            <input type="text" class="field-invalid">
+            <p class="field-invalid-text">Erreur: Texte Invalide</p>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class=&quot;input-container&quot;&gt;
+                    &lt;p&gt;Courriel&lt;/p&gt;
+                    &lt;input type=&quot;text&quot; class=&quot;field-invalid&quot;&gt;
+                    &lt;p class=&quot;field-invalid-text&quot;&gt;Erreur: Texte Invalide&lt;/p&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+        <div class="input-container">
+            <p>Message</p>
+            <textarea name="" id="" rows="4" cols="50" style="height: 120px;"></textarea>
+        </div>
+        <pre>
+            <code class="language-html">
+                &lt;div class=&quot;input-container&quot;&gt;
+                    &lt;p&gt;Message&lt;/p&gt;
+                    &lt;textarea name=&quot;&quot; id=&quot;&quot; rows=&quot;4&quot; &gt;&lt;/textarea&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+    </div>
+    
+
+</body>
+
+</html>
